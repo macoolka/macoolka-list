@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Collection Reader deleteWith 1`] = `
+Immutable.List [
+  Object {
+    "age": 23,
+    "city": "newyork",
+    "id": "3",
+    "isFemale": true,
+    "name": "taylor",
+  },
+  Object {
+    "age": 53,
+    "city": "london",
+    "id": "4",
+    "isFemale": true,
+    "name": "sam",
+  },
+]
+`;
+
+exports[`List Collection Reader deleteWith 2`] = `
+Immutable.List [
+  Object {
+    "age": 23,
+    "city": "newyork",
+    "id": "3",
+    "isFemale": true,
+    "name": "taylor",
+  },
+  Object {
+    "age": 53,
+    "city": "london",
+    "id": "4",
+    "isFemale": true,
+    "name": "sam",
+  },
+]
+`;
+
+exports[`List Collection Reader getShow 1`] = `"[{ id: \\"1\\", name: \\"john\\" }, { id: \\"2\\", name: \\"zhang\\" }, { id: \\"3\\", name: \\"taylor\\" }, { id: \\"4\\", name: \\"sam\\" }]"`;
+
+exports[`List Collection Reader getShow 2`] = `"[{ id: \\"1\\", name: \\"john\\" }, { id: \\"2\\", name: \\"zhang\\" }, { id: \\"3\\", name: \\"taylor\\" }, { id: \\"4\\", name: \\"sam\\" }]"`;
+
+exports[`List Collection Reader groupByOption 1`] = `
+Object {
+  "\\"beijing\\"": Immutable.List [
+    Object {
+      "age": 21,
+      "city": "beijing",
+      "id": "1",
+      "isFemale": false,
+      "name": "john",
+    },
+    Object {
+      "age": 34,
+      "city": "beijing",
+      "id": "2",
+      "isFemale": false,
+      "name": "zhang",
+    },
+  ],
+  "\\"london\\"": Immutable.List [
+    Object {
+      "age": 53,
+      "city": "london",
+      "id": "4",
+      "isFemale": true,
+      "name": "sam",
+    },
+  ],
+  "\\"newyork\\"": Immutable.List [
+    Object {
+      "age": 23,
+      "city": "newyork",
+      "id": "3",
+      "isFemale": true,
+      "name": "taylor",
+    },
+  ],
+}
+`;
+
+exports[`List Collection Reader groupByOption 2`] = `
+Object {
+  "\\"beijing\\"": Immutable.List [
+    Object {
+      "age": 21,
+      "city": "beijing",
+      "id": "1",
+      "isFemale": false,
+      "name": "john",
+    },
+    Object {
+      "age": 34,
+      "city": "beijing",
+      "id": "2",
+      "isFemale": false,
+      "name": "zhang",
+    },
+  ],
+  "\\"london\\"": Immutable.List [
+    Object {
+      "age": 53,
+      "city": "london",
+      "id": "4",
+      "isFemale": true,
+      "name": "sam",
+    },
+  ],
+  "\\"newyork\\"": Immutable.List [
+    Object {
+      "age": 23,
+      "city": "newyork",
+      "id": "3",
+      "isFemale": true,
+      "name": "taylor",
+    },
+  ],
+}
+`;
+
+exports[`List Collection Reader updateWith 1`] = `
+Immutable.List [
+  Object {
+    "age": 21,
+    "city": "beijing",
+    "id": "1",
+    "isFemale": false,
+    "name": "test",
+  },
+  Object {
+    "age": 34,
+    "city": "beijing",
+    "id": "2",
+    "isFemale": false,
+    "name": "test",
+  },
+  Object {
+    "age": 23,
+    "city": "newyork",
+    "id": "3",
+    "isFemale": true,
+    "name": "taylor",
+  },
+  Object {
+    "age": 53,
+    "city": "london",
+    "id": "4",
+    "isFemale": true,
+    "name": "sam",
+  },
+]
+`;
+
+exports[`List Collection Reader updateWith 2`] = `
+Immutable.List [
+  Object {
+    "age": 21,
+    "city": "beijing",
+    "id": "1",
+    "isFemale": false,
+    "name": "test",
+  },
+  Object {
+    "age": 34,
+    "city": "beijing",
+    "id": "2",
+    "isFemale": false,
+    "name": "test",
+  },
+  Object {
+    "age": 23,
+    "city": "newyork",
+    "id": "3",
+    "isFemale": true,
+    "name": "taylor",
+  },
+  Object {
+    "age": 53,
+    "city": "london",
+    "id": "4",
+    "isFemale": true,
+    "name": "sam",
+  },
+]
+`;
